@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AD152A2A9C0B491D2BD96E4FA54598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		07ADDBEC5D42C88089926DB9E28BF283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		09ED1A5574BA0C050614173DDEA28EBA /* Sketch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D8744A205443B83423347EDCF82B51 /* Sketch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BFB8BE5C650652C304DA54B19B0C5CA /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A61BC6C105D8D9B70BF7482C6B34168B /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D676F56B73AFB1C7D7DBB2125973D5E /* Sketch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F931B2D131E017E3430884B67AA3F85 /* Sketch-dummy.m */; };
+		1CDC90DC9B71191CD42D349D7A5A60E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3B50D6B5392B16D4495509215DC8DCFA /* Pods-APPDFHandDrawSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D172B31265DAC72B16226D88031AE496 /* Pods-APPDFHandDrawSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EBD6C04EBB598A675F999BF593A82F1 /* SketchTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31CA3C3DEC7B123B6F3A0D36430F6 /* SketchTool.swift */; };
+		6AE360A3280231FF809BF4F1A17546FF /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB3CD9C77381CF2631C0133929A899 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-dummy.m */; };
+		8DE5680E48EB1B0196B430AED70358CB /* Pods-APPDFHandDrawSignatureTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C02EEDA62E054FFB72B7B6A39E4C473D /* Pods-APPDFHandDrawSignatureTests-dummy.m */; };
+		923A68E22E3E8B8E9DE4E922EAC6B436 /* UIImage+fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23362BC8B83BD9E716CAEA5E7D6144 /* UIImage+fill.swift */; };
+		B337134389E8659AA27F5FF36619B1AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BE43185E7C0A80556239D8B63F1D1532 /* Pods-APPDFHandDrawSignatureTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC797B07B010050E4D96D2E0B425A556 /* Pods-APPDFHandDrawSignatureTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB8BA3A7CDFA9D4BF3E20A13AB6A0DD0 /* Pods-APPDFHandDrawSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C95F4CB5AE6215F60222861011DEF350 /* Pods-APPDFHandDrawSignature-dummy.m */; };
+		F3FDE4BC63647430054D976CE73CB6A9 /* SketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8DB3C6D3A88693E997413EB888E1E /* SketchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66AC3F86F6828CBF8C4CD88A55EA36B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A422A4C150E4429D13B987D8315AF3D;
+			remoteInfo = Sketch;
+		};
+		70EAE3D2F4281EB9EA2693140FEBF9DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A422A4C150E4429D13B987D8315AF3D;
+			remoteInfo = Sketch;
+		};
+		FA70685A309A15131286085B7D7AA34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED40212EB9A137A718BA24AA335FC60F;
+			remoteInfo = "Pods-APPDFHandDrawSignature";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F09DF51F60F89980A5867B98E40C872 /* Pods-APPDFHandDrawSignatureTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APPDFHandDrawSignatureTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15D8744A205443B83423347EDCF82B51 /* Sketch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sketch-umbrella.h"; sourceTree = "<group>"; };
+		18AB3CD9C77381CF2631C0133929A899 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-dummy.m"; sourceTree = "<group>"; };
+		1BC6EAE8BF4F5229C52F991B05A49D8B /* Pods-APPDFHandDrawSignatureTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APPDFHandDrawSignatureTests-Info.plist"; sourceTree = "<group>"; };
+		233140E2AE0A9E3A0B372214477ACF60 /* Pods-APPDFHandDrawSignatureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APPDFHandDrawSignatureTests.release.xcconfig"; sourceTree = "<group>"; };
+		31C3C72FEA75C8B0012037F0F987B743 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		339155419591BA6EBB5C0593C6BA680B /* Sketch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sketch.modulemap; sourceTree = "<group>"; };
+		37AE3EA43B091204573C6EBC80A002CF /* Pods_APPDFHandDrawSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APPDFHandDrawSignature.framework; path = "Pods-APPDFHandDrawSignature.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F931B2D131E017E3430884B67AA3F85 /* Sketch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sketch-dummy.m"; sourceTree = "<group>"; };
+		473761B05C9593C50446C4CFCF9585F1 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EADAEB29CDFDFC500FA07AEBCDA9C4E /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55D6D17E0782A276754BEA7BF068C6CD /* Pods-APPDFHandDrawSignature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APPDFHandDrawSignature.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB691AC2DDC0E881CCEB7DD15C35D1D /* Pods-APPDFHandDrawSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APPDFHandDrawSignature.modulemap"; sourceTree = "<group>"; };
+		6051248460232664C3C203232DF55FE4 /* Pods-APPDFHandDrawSignature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APPDFHandDrawSignature.release.xcconfig"; sourceTree = "<group>"; };
+		611A70DBBA81A9E84518DBEDE6AADF69 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-frameworks.sh"; sourceTree = "<group>"; };
+		61513DBCD758BA1AB778B6DF9AA16A45 /* Pods-APPDFHandDrawSignature-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APPDFHandDrawSignature-Info.plist"; sourceTree = "<group>"; };
+		6291D2E06F1B204D2FF66DA2F34B1D9D /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		732E0CB69CF8300BFE1F1F21006FE9FB /* Sketch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sketch.release.xcconfig; sourceTree = "<group>"; };
+		851D15C48F652DFA2640DEC1EE29D1FE /* Pods_APPDFHandDrawSignatureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APPDFHandDrawSignatureTests.framework; path = "Pods-APPDFHandDrawSignatureTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D61B89EFFA9F27608D8F3ED77A1AE3 /* Pods_APPDFHandDrawSignature_APPDFHandDrawSignatureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APPDFHandDrawSignature_APPDFHandDrawSignatureUITests.framework; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7E0B612E7804C9B8B83DC4E3E2A985 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-Info.plist"; sourceTree = "<group>"; };
+		9A9672C670CD92D3695C5B59ED531636 /* Pods-APPDFHandDrawSignature-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APPDFHandDrawSignature-frameworks.sh"; sourceTree = "<group>"; };
+		9C01D2B54766DB16848402312348CBBF /* Pods-APPDFHandDrawSignatureTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APPDFHandDrawSignatureTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A166277227F3D4178115864DDC75FBF5 /* Sketch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sketch.debug.xcconfig; sourceTree = "<group>"; };
+		A61BC6C105D8D9B70BF7482C6B34168B /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-umbrella.h"; sourceTree = "<group>"; };
+		A9A28DC39245CD8BBF623E7FAC03EAD4 /* Sketch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sketch-prefix.pch"; sourceTree = "<group>"; };
+		B1D0265C05B7BD94BA4DB5BF70915544 /* Sketch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sketch.framework; path = Sketch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31F6D579D1480EBEB56313F0B1363DE /* Pods-APPDFHandDrawSignature-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APPDFHandDrawSignature-acknowledgements.plist"; sourceTree = "<group>"; };
+		C02EEDA62E054FFB72B7B6A39E4C473D /* Pods-APPDFHandDrawSignatureTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APPDFHandDrawSignatureTests-dummy.m"; sourceTree = "<group>"; };
+		C510662DD12C2D1ECCD53D24FFCDF8F3 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C95F4CB5AE6215F60222861011DEF350 /* Pods-APPDFHandDrawSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APPDFHandDrawSignature-dummy.m"; sourceTree = "<group>"; };
+		D172B31265DAC72B16226D88031AE496 /* Pods-APPDFHandDrawSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APPDFHandDrawSignature-umbrella.h"; sourceTree = "<group>"; };
+		D2B8DB3C6D3A88693E997413EB888E1E /* SketchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SketchView.swift; path = Sketch/Classes/SketchView.swift; sourceTree = "<group>"; };
+		E920FACEF2341DE9B4F066DCBA5D9B38 /* Pods-APPDFHandDrawSignatureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APPDFHandDrawSignatureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBEDE25E32BE515215B0A5B1A8F1CFCB /* Sketch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Sketch-Info.plist"; sourceTree = "<group>"; };
+		EEB31CA3C3DEC7B123B6F3A0D36430F6 /* SketchTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SketchTool.swift; path = Sketch/Classes/SketchTool.swift; sourceTree = "<group>"; };
+		EF23362BC8B83BD9E716CAEA5E7D6144 /* UIImage+fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+fill.swift"; path = "Sketch/Classes/UIImage+fill.swift"; sourceTree = "<group>"; };
+		F2A793777A261D7E5FB2F851605758C2 /* Pods-APPDFHandDrawSignature-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APPDFHandDrawSignature-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F345F4EEDD7074447B5F03C54DB767BD /* Pods-APPDFHandDrawSignatureTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APPDFHandDrawSignatureTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC797B07B010050E4D96D2E0B425A556 /* Pods-APPDFHandDrawSignatureTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APPDFHandDrawSignatureTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0041A99EAE94C0B332FDA65F1E40A9FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ADDBEC5D42C88089926DB9E28BF283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70042FF086E276355E3229866D60BEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B337134389E8659AA27F5FF36619B1AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898C1B0CB6A93427364561B8E28D66D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD152A2A9C0B491D2BD96E4FA54598 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DC9265F502677873CF0B514BCABE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDC90DC9B71191CD42D349D7A5A60E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45004EBDCA5E56B844E108B9F730EB78 /* Pods-APPDFHandDrawSignature */ = {
+			isa = PBXGroup;
+			children = (
+				5BB691AC2DDC0E881CCEB7DD15C35D1D /* Pods-APPDFHandDrawSignature.modulemap */,
+				F2A793777A261D7E5FB2F851605758C2 /* Pods-APPDFHandDrawSignature-acknowledgements.markdown */,
+				B31F6D579D1480EBEB56313F0B1363DE /* Pods-APPDFHandDrawSignature-acknowledgements.plist */,
+				C95F4CB5AE6215F60222861011DEF350 /* Pods-APPDFHandDrawSignature-dummy.m */,
+				9A9672C670CD92D3695C5B59ED531636 /* Pods-APPDFHandDrawSignature-frameworks.sh */,
+				61513DBCD758BA1AB778B6DF9AA16A45 /* Pods-APPDFHandDrawSignature-Info.plist */,
+				D172B31265DAC72B16226D88031AE496 /* Pods-APPDFHandDrawSignature-umbrella.h */,
+				55D6D17E0782A276754BEA7BF068C6CD /* Pods-APPDFHandDrawSignature.debug.xcconfig */,
+				6051248460232664C3C203232DF55FE4 /* Pods-APPDFHandDrawSignature.release.xcconfig */,
+			);
+			name = "Pods-APPDFHandDrawSignature";
+			path = "Target Support Files/Pods-APPDFHandDrawSignature";
+			sourceTree = "<group>";
+		};
+		480DFE3AB697DD7CA682690CA46FAD3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45004EBDCA5E56B844E108B9F730EB78 /* Pods-APPDFHandDrawSignature */,
+				8FAAF9251968757EEF0DA1000D7B977C /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests */,
+				C58298E241921624269634FEFE3A7A72 /* Pods-APPDFHandDrawSignatureTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65BD5166979F8AF198CA915D4A6C7B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C186EE5D3BDD916C18565D3A5C14446 /* Sketch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C186EE5D3BDD916C18565D3A5C14446 /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				EEB31CA3C3DEC7B123B6F3A0D36430F6 /* SketchTool.swift */,
+				D2B8DB3C6D3A88693E997413EB888E1E /* SketchView.swift */,
+				EF23362BC8B83BD9E716CAEA5E7D6144 /* UIImage+fill.swift */,
+				F590BAA861D955CD045215F9C56775EE /* Support Files */,
+			);
+			name = Sketch;
+			path = Sketch;
+			sourceTree = "<group>";
+		};
+		8FAAF9251968757EEF0DA1000D7B977C /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31C3C72FEA75C8B0012037F0F987B743 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.modulemap */,
+				4EADAEB29CDFDFC500FA07AEBCDA9C4E /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-acknowledgements.markdown */,
+				473761B05C9593C50446C4CFCF9585F1 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-acknowledgements.plist */,
+				18AB3CD9C77381CF2631C0133929A899 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-dummy.m */,
+				611A70DBBA81A9E84518DBEDE6AADF69 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-frameworks.sh */,
+				8A7E0B612E7804C9B8B83DC4E3E2A985 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-Info.plist */,
+				A61BC6C105D8D9B70BF7482C6B34168B /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-umbrella.h */,
+				6291D2E06F1B204D2FF66DA2F34B1D9D /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.debug.xcconfig */,
+				C510662DD12C2D1ECCD53D24FFCDF8F3 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.release.xcconfig */,
+			);
+			name = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests";
+			path = "Target Support Files/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests";
+			sourceTree = "<group>";
+		};
+		9EB777F660061BE13EE728A95CF06893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37AE3EA43B091204573C6EBC80A002CF /* Pods_APPDFHandDrawSignature.framework */,
+				85D61B89EFFA9F27608D8F3ED77A1AE3 /* Pods_APPDFHandDrawSignature_APPDFHandDrawSignatureUITests.framework */,
+				851D15C48F652DFA2640DEC1EE29D1FE /* Pods_APPDFHandDrawSignatureTests.framework */,
+				B1D0265C05B7BD94BA4DB5BF70915544 /* Sketch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C58298E241921624269634FEFE3A7A72 /* Pods-APPDFHandDrawSignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C01D2B54766DB16848402312348CBBF /* Pods-APPDFHandDrawSignatureTests.modulemap */,
+				F345F4EEDD7074447B5F03C54DB767BD /* Pods-APPDFHandDrawSignatureTests-acknowledgements.markdown */,
+				0F09DF51F60F89980A5867B98E40C872 /* Pods-APPDFHandDrawSignatureTests-acknowledgements.plist */,
+				C02EEDA62E054FFB72B7B6A39E4C473D /* Pods-APPDFHandDrawSignatureTests-dummy.m */,
+				1BC6EAE8BF4F5229C52F991B05A49D8B /* Pods-APPDFHandDrawSignatureTests-Info.plist */,
+				FC797B07B010050E4D96D2E0B425A556 /* Pods-APPDFHandDrawSignatureTests-umbrella.h */,
+				E920FACEF2341DE9B4F066DCBA5D9B38 /* Pods-APPDFHandDrawSignatureTests.debug.xcconfig */,
+				233140E2AE0A9E3A0B372214477ACF60 /* Pods-APPDFHandDrawSignatureTests.release.xcconfig */,
+			);
+			name = "Pods-APPDFHandDrawSignatureTests";
+			path = "Target Support Files/Pods-APPDFHandDrawSignatureTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				65BD5166979F8AF198CA915D4A6C7B59 /* Pods */,
+				9EB777F660061BE13EE728A95CF06893 /* Products */,
+				480DFE3AB697DD7CA682690CA46FAD3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F590BAA861D955CD045215F9C56775EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				339155419591BA6EBB5C0593C6BA680B /* Sketch.modulemap */,
+				3F931B2D131E017E3430884B67AA3F85 /* Sketch-dummy.m */,
+				EBEDE25E32BE515215B0A5B1A8F1CFCB /* Sketch-Info.plist */,
+				A9A28DC39245CD8BBF623E7FAC03EAD4 /* Sketch-prefix.pch */,
+				15D8744A205443B83423347EDCF82B51 /* Sketch-umbrella.h */,
+				A166277227F3D4178115864DDC75FBF5 /* Sketch.debug.xcconfig */,
+				732E0CB69CF8300BFE1F1F21006FE9FB /* Sketch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sketch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C6FC08673E9EBCDAE86F5C6B39920DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09ED1A5574BA0C050614173DDEA28EBA /* Sketch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53881F291A22775360A6FEB1F76DBD86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFB8BE5C650652C304DA54B19B0C5CA /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA085B4004AEEEE372D7FCA992A9C9E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B50D6B5392B16D4495509215DC8DCFA /* Pods-APPDFHandDrawSignature-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BCD9CC5751C6142522F3E46461F68B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE43185E7C0A80556239D8B63F1D1532 /* Pods-APPDFHandDrawSignatureTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19E3307E962C08768B0C83E9AC8EB74B /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7108B4978669AFFC8DE8A0AFD9FA80 /* Build configuration list for PBXNativeTarget "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests" */;
+			buildPhases = (
+				53881F291A22775360A6FEB1F76DBD86 /* Headers */,
+				FACAAA8EAF34ABA94CE36B923754BFB1 /* Sources */,
+				70042FF086E276355E3229866D60BEB8 /* Frameworks */,
+				A972259B7807EC3F42D403BBA243F596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F980008FC90B0630A09F0CDDD81B972 /* PBXTargetDependency */,
+			);
+			name = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests";
+			productName = "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests";
+			productReference = 85D61B89EFFA9F27608D8F3ED77A1AE3 /* Pods_APPDFHandDrawSignature_APPDFHandDrawSignatureUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A422A4C150E4429D13B987D8315AF3D /* Sketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C31D07A652DD752C6C204CDA6ECC14 /* Build configuration list for PBXNativeTarget "Sketch" */;
+			buildPhases = (
+				3C6FC08673E9EBCDAE86F5C6B39920DD /* Headers */,
+				C3B8FE1BA91795A8977CBBC829BBD4EC /* Sources */,
+				0041A99EAE94C0B332FDA65F1E40A9FB /* Frameworks */,
+				0084B7AA0E9760A97E20DD86636477DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sketch;
+			productName = Sketch;
+			productReference = B1D0265C05B7BD94BA4DB5BF70915544 /* Sketch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63A182A1E8F06AC0DA67C0CF81C6FFF3 /* Pods-APPDFHandDrawSignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AB460FB4554B87A62F8E6498B2CD90A /* Build configuration list for PBXNativeTarget "Pods-APPDFHandDrawSignatureTests" */;
+			buildPhases = (
+				E3BCD9CC5751C6142522F3E46461F68B /* Headers */,
+				6E0C9BB4530FB1AD8A05220B0995F975 /* Sources */,
+				95DC9265F502677873CF0B514BCABE42 /* Frameworks */,
+				1C7D4FB1D70DD82D8B1754E2E146EE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				613062451526ABBD516617E5DF5C38FD /* PBXTargetDependency */,
+			);
+			name = "Pods-APPDFHandDrawSignatureTests";
+			productName = "Pods-APPDFHandDrawSignatureTests";
+			productReference = 851D15C48F652DFA2640DEC1EE29D1FE /* Pods_APPDFHandDrawSignatureTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED40212EB9A137A718BA24AA335FC60F /* Pods-APPDFHandDrawSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72195C721D1EC15686E2651D71188CF /* Build configuration list for PBXNativeTarget "Pods-APPDFHandDrawSignature" */;
+			buildPhases = (
+				BA085B4004AEEEE372D7FCA992A9C9E0 /* Headers */,
+				DA2DB81E90BB1C1DE75E2C407845119B /* Sources */,
+				898C1B0CB6A93427364561B8E28D66D9 /* Frameworks */,
+				FF5B7449B6C43933FC4EBB333985685C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1161DBBE13BA47C0E94F22C9CCDE3998 /* PBXTargetDependency */,
+			);
+			name = "Pods-APPDFHandDrawSignature";
+			productName = "Pods-APPDFHandDrawSignature";
+			productReference = 37AE3EA43B091204573C6EBC80A002CF /* Pods_APPDFHandDrawSignature.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9EB777F660061BE13EE728A95CF06893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED40212EB9A137A718BA24AA335FC60F /* Pods-APPDFHandDrawSignature */,
+				19E3307E962C08768B0C83E9AC8EB74B /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests */,
+				63A182A1E8F06AC0DA67C0CF81C6FFF3 /* Pods-APPDFHandDrawSignatureTests */,
+				1A422A4C150E4429D13B987D8315AF3D /* Sketch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0084B7AA0E9760A97E20DD86636477DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7D4FB1D70DD82D8B1754E2E146EE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A972259B7807EC3F42D403BBA243F596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5B7449B6C43933FC4EBB333985685C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0C9BB4530FB1AD8A05220B0995F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE5680E48EB1B0196B430AED70358CB /* Pods-APPDFHandDrawSignatureTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B8FE1BA91795A8977CBBC829BBD4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D676F56B73AFB1C7D7DBB2125973D5E /* Sketch-dummy.m in Sources */,
+				5EBD6C04EBB598A675F999BF593A82F1 /* SketchTool.swift in Sources */,
+				F3FDE4BC63647430054D976CE73CB6A9 /* SketchView.swift in Sources */,
+				923A68E22E3E8B8E9DE4E922EAC6B436 /* UIImage+fill.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2DB81E90BB1C1DE75E2C407845119B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8BA3A7CDFA9D4BF3E20A13AB6A0DD0 /* Pods-APPDFHandDrawSignature-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAAA8EAF34ABA94CE36B923754BFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE360A3280231FF809BF4F1A17546FF /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1161DBBE13BA47C0E94F22C9CCDE3998 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sketch;
+			target = 1A422A4C150E4429D13B987D8315AF3D /* Sketch */;
+			targetProxy = 66AC3F86F6828CBF8C4CD88A55EA36B9 /* PBXContainerItemProxy */;
+		};
+		1F980008FC90B0630A09F0CDDD81B972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sketch;
+			target = 1A422A4C150E4429D13B987D8315AF3D /* Sketch */;
+			targetProxy = 70EAE3D2F4281EB9EA2693140FEBF9DF /* PBXContainerItemProxy */;
+		};
+		613062451526ABBD516617E5DF5C38FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-APPDFHandDrawSignature";
+			target = ED40212EB9A137A718BA24AA335FC60F /* Pods-APPDFHandDrawSignature */;
+			targetProxy = FA70685A309A15131286085B7D7AA34F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13A95801630BA5CCA0A43E45B52831DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A166277227F3D4178115864DDC75FBF5 /* Sketch.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sketch/Sketch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sketch/Sketch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Sketch/Sketch.modulemap";
+				PRODUCT_MODULE_NAME = Sketch;
+				PRODUCT_NAME = Sketch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A67DBCE0ACC4E71F925B47402465F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C510662DD12C2D1ECCD53D24FFCDF8F3 /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69D0FBA269BB4FF05179A7B5B3509B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E920FACEF2341DE9B4F066DCBA5D9B38 /* Pods-APPDFHandDrawSignatureTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APPDFHandDrawSignatureTests/Pods-APPDFHandDrawSignatureTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APPDFHandDrawSignatureTests/Pods-APPDFHandDrawSignatureTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A53A1AC62FF51A63678BEE19894D15D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732E0CB69CF8300BFE1F1F21006FE9FB /* Sketch.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sketch/Sketch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sketch/Sketch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Sketch/Sketch.modulemap";
+				PRODUCT_MODULE_NAME = Sketch;
+				PRODUCT_NAME = Sketch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B68B3267D41B27F14BC070430A908D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6291D2E06F1B204D2FF66DA2F34B1D9D /* Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests/Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEFB6E19BEDBF04123E4DEBBFCAF9EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233140E2AE0A9E3A0B372214477ACF60 /* Pods-APPDFHandDrawSignatureTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APPDFHandDrawSignatureTests/Pods-APPDFHandDrawSignatureTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APPDFHandDrawSignatureTests/Pods-APPDFHandDrawSignatureTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE4D1CD541CAEF1A6090254ADD142E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6051248460232664C3C203232DF55FE4 /* Pods-APPDFHandDrawSignature.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APPDFHandDrawSignature/Pods-APPDFHandDrawSignature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APPDFHandDrawSignature/Pods-APPDFHandDrawSignature.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F937AB890BFB9B5C4EFE9E8F779CF5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D6D17E0782A276754BEA7BF068C6CD /* Pods-APPDFHandDrawSignature.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-APPDFHandDrawSignature/Pods-APPDFHandDrawSignature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APPDFHandDrawSignature/Pods-APPDFHandDrawSignature.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C31D07A652DD752C6C204CDA6ECC14 /* Build configuration list for PBXNativeTarget "Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A95801630BA5CCA0A43E45B52831DD /* Debug */,
+				A53A1AC62FF51A63678BEE19894D15D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B7108B4978669AFFC8DE8A0AFD9FA80 /* Build configuration list for PBXNativeTarget "Pods-APPDFHandDrawSignature-APPDFHandDrawSignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68B3267D41B27F14BC070430A908D19 /* Debug */,
+				4A67DBCE0ACC4E71F925B47402465F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AB460FB4554B87A62F8E6498B2CD90A /* Build configuration list for PBXNativeTarget "Pods-APPDFHandDrawSignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D0FBA269BB4FF05179A7B5B3509B7D /* Debug */,
+				DEFB6E19BEDBF04123E4DEBBFCAF9EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72195C721D1EC15686E2651D71188CF /* Build configuration list for PBXNativeTarget "Pods-APPDFHandDrawSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F937AB890BFB9B5C4EFE9E8F779CF5D7 /* Debug */,
+				EE4D1CD541CAEF1A6090254ADD142E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
